@@ -2,14 +2,20 @@
 Convert HTML to PDF using Webkit (QtWebKit) on AWS Lambda
 
 ## Input
-    {
-        "html" : "<!DOCTYPE html><html><body>Hello world</body></html>"
-    }
+
+```json
+{
+    "html" : "<!DOCTYPE html><html><body>Hello world</body></html>"
+}
+```
 
 ## Output
-    {
-        "filename": "8rqj9td0pvjf9a4i.pdf"
-    }
+
+```json
+{
+    "filename": "8rqj9td0pvjf9a4i.pdf"
+}
+```
 
 ## Configuration
 
