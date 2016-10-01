@@ -9,7 +9,7 @@ Convert HTML to PDF using Webkit (QtWebKit) on AWS Lambda
 4. Do not configure any triggers and simply click **Next** button
 5. Enter name of your function (e.g. "html-to-pdf"), then select runtime **Node.js 4.3**
 6. In **Code entry type** change **Edit code inline** to **Upload a .ZIP file**
-7. Click **Upload** button to upload [this project as zip archive]([Download this function as ZIP archive](https://github.com/lubos/aws-lambda-wkhtmltopdf/releases/download/0.1/wkhtmltopdf.zip).
+7. Click **Upload** button to upload [this project as zip archive](Download this function as ZIP archive](https://github.com/lubos/aws-lambda-wkhtmltopdf/releases/download/0.1/wkhtmltopdf.zip).
 8. Select **lambda_basic_execution** role (this function doesn't need access to any part of your AWS account)
 9. Increase timeout from 3 seconds to 10 seconds or more.
 10. Click **Next** button
