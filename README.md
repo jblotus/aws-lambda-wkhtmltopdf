@@ -43,7 +43,7 @@ There are many options available to [wkhtmltopdf](http://wkhtmltopdf.org/docs.ht
 
 ```json
 {
-    "html_base64" : "PGJvZHk+SGVsbG8gd29ybGQ8L2JvZHk+"
+    "html_base64" : "PGJvZHk+SGVsbG8gd29ybGQ8L2JvZHk+",
     "options":
     {
         "pageSize": "letter"
