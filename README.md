@@ -35,6 +35,8 @@ Then click **Save and test** button. If your function is working correctly, you 
 }
 ```
 
+The function will respond with PDF encoded in Base64
+
 ## Options
 
 There are many options available to [wkhtmltopdf](http://wkhtmltopdf.org/docs.html). All of the command line options are supported as documented on the page linked to above. The options are camelCased instead-of-dashed as in the command line tool. Note that options that do not have values, must be specified as a boolean, e.g. debugJavascript: true
