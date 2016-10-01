@@ -21,9 +21,11 @@ Click **Actions** button, then click **Configure test event** and paste followin
 
 ```json
 {
-    "html_base64" : "PGJvZHk+SGVsbG8gd29ybGQ8L2JvZHk+", // <body>Hello world</body>
+    "html_base64" : "PGJvZHk+SGVsbG8gd29ybGQ8L2JvZHk+"
 }
 ```
+
+`html_base64` parameter represents encoded `<body>Hello world</body>`
 
 Then click **Save and test** button. If your function is working correctly, you should receive following output:
 
@@ -39,7 +41,7 @@ There are many options available to [wkhtmltopdf](http://wkhtmltopdf.org/docs.ht
 
 ```json
 {
-    "html_base64" : "PGJvZHk+SGVsbG8gd29ybGQ8L2JvZHk+", // <body>Hello world</body>
+    "html_base64" : "PGJvZHk+SGVsbG8gd29ybGQ8L2JvZHk+"
     "options":
     {
         "pageSize": "letter"
